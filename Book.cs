@@ -13,6 +13,7 @@ namespace MandatoryAssignment1
         public string Author { get => author; }
         public int PageNumber { get => pageNumber; }
         public string Isbn13 { get => Isbn13; }
+        
 
         public Book(string title, string author, int pageNumber, string isbn13)
         {
