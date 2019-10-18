@@ -17,13 +17,13 @@ namespace MandatoryAssignment1
 
         public Book(string title, string author, int pageNumber, string isbn13)
         {
-            Validate(title, author, pageNumber, isbn13);
+            Validation(title, author, PageNumber, isbn13);
         }
         public Book()
         {
 
         }
-        public void Validate(string title, string author, int pageNumber, string isbn13)
+        public void Validation(string title, string author, int pageNumber, string isbn13)
         {
             if (title.Length > 2)
                 this.title = title;
